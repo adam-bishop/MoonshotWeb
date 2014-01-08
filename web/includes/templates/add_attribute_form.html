@@ -1,0 +1,19 @@
+<h1>Adding an Attribute</h1>
+<span class="h1sub">This form is used to create attributes. These are columns 
+in the database, so there are restraints that need to be specified when they 
+are created.</span>
+<form action="./new.php?class=attribute&create=true" method="post">
+	<p>
+	<label>Attribute Name:</label><input type="text" placeholder="Height" 
+	required name="name"><br>
+	<label>Attribute Description:</label><input type="text" 
+	placeholder="The height of an identity" name="description" size="80"><br>
+	<label>Attribute Type:</label>
+	<select name="type">
+		<option value="int">Integer</option>
+		<option value="varchar">VarChar</option>
+	</select><br>
+	<label>Default Value:</label><input type="text" name="default" placeholder="180"><br>
+	<input type="submit">
+	</p>
+</form>

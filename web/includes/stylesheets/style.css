@@ -1,0 +1,102 @@
+body {
+	margin: 0px;
+	background-color: #EEEEEE;
+	font-family: Helvetica, sans-serif;
+}
+
+a {
+	color: #333333;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+a:hover {
+	color: #9E0000;
+	text-decoration: underline;
+}
+
+nav ul { padding: 0px; margin: 0px; }
+
+nav ul li {
+	margin-top: 15px;
+	display: block;
+	float: left;
+	text-align: center;
+	width: 20%;
+}
+
+.main {
+	background-color: #FFFFFF;
+	width: 800px;
+	padding: 0px;
+	margin: auto auto;
+	padding-bottom: 60px;
+	overflow: hidden;
+}
+
+.text-content {
+	padding: 40px;
+	font-size: 1.2em;
+}
+
+.text-content h1 { margin-bottom: 0px; }
+
+.text-content .h1sub {
+	font-size: 0.8em;
+	font-style: italic;
+	margin-bottom: 5px;
+}
+
+.text-content p { 
+	font-size: 0.9em;
+	line-height: 1.8em; 
+}
+
+.identityTable {
+	margin: auto auto;
+	margin-top: 50px;
+	width: 450px;
+	font-size: 0.9em;
+}
+
+.identityName { float: left; width: 50%; }
+
+.identityButton {
+	text-align: center;
+	float: left;
+	width: 25%;
+}
+
+.attributeTable {
+	margin: auto auto;
+	margin-top: 50px;
+	width: 650px;
+	font-size: 0.9em;
+}
+
+.attributeName { float: left; width: 15%; height: 20px;}
+.attributeType { float: left; width: 12%; height: 20px;}
+.attributeDesc { float: left; width: 53%; height: 20px;}
+.attributeButton { float: left; width: 10%; height: 20px;}
+
+label {
+	font-size: 0.8em;
+	margin-right: 5px;
+}
+
+input[type=text] {
+	padding: 2px;
+	border: 1px solid black;
+}
+
+input[type=submit] {
+	padding: 5px 10px;
+	border: 1px solid black;
+	border-radius: 2px;
+	background-color: #CCCCCC;
+}
+
+input[type=submit]:hover {
+	cursor: pointer;
+	background-color: #BBBBBB;
+}
