@@ -4,7 +4,7 @@ A basic website for interacting with an attribute authority
 
 ### Installation
 
-Installation is based RedHat.
+Installation is based on RedHat.
 
 #### Installing Apache HTTPD, PHP, and MySQL
 
